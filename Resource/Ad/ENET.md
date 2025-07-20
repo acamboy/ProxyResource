@@ -37,5 +37,9 @@ Plus 流量 1024G 月付 120
 
 优惠码续费可用
 
+> 福利
+
+为Base及以上套餐用户提供免费的Emby服务，不限制节点。
+
 **联系方式**
 官方群组 [@enet_group](https://t.me/enet_group)
