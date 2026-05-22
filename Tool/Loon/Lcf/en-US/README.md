@@ -1,39 +1,38 @@
-### Configuration Instructions
+### Config Instructions
 
 Applicable Software: [Loon](https://apps.apple.com/app/loon/id1373567447)
 
-Configuration Author: [可莉🅥](https://t.me/iKeLee)
+Config Author: [可莉🅥](https://t.me/iKeLee)
 
-Update Date: Refer to the configuration file
+Update Date: Refer to the Config file
 
 Applicable Version: Latest version on App Store
 
-### Importing Configuration
+### Importing Config
 
-##### Clicking the link below will immediately start importing the configuration file and ask if you really want to import it. Please confirm before importing.
+##### You should back up your current Config file before importing: click [Config] → [Export] → [Save to "Files"]
 
-##### You should back up your current configuration file before importing: click [Configuration] → [Export] → [Save to "Files"]
+##### Clicking the link below will immediately start importing the Config file and ask if you really want to import it. Please confirm before importing.
 
+### Inventory of Config Files
 
-### Inventory of Configuration Files
+[Loon Beginner Config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Beginner_Config_By_iKeLee.lcf) - This configuration file is ideal for beginners, as it contains only one policy group, allowing newcomers to get started more quickly.
 
-[Auto-Select config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Auto-Select_Configuration_By_iKeLee.lcf) - This configuration file automatically selects the node with the lowest network latency, eliminating the need for manual intervention. The entire process is fully automated.
+[Loon Auto Select Config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Auto_Select_Config_By_iKeLee.lcf) - This configuration file automatically selects the node with the lowest network latency without any manual intervention; the entire process is fully automated.
 
-[Advanced config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Advanced_Configuration_By_iKeLee.lcf) - This configuration file enables you to automatically select the node with the lowest network latency, eliminating the need for manual intervention. The entire process is fully automated. When connected to a router equipped with a transparent proxy, your Loon will establish connections using the "DIRECT" policy, allowing direct access to restricted websites through your router. Conversely, when using other networks, access to these websites will be achieved through Loon's own proxy mode. This prevents potential double-proxy situations that might arise when connected to a router already employing a transparent proxy.
+[Loon Manual Select Config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Manual_Select_Config_By_iKeLee.lcf) - This configuration file requires you to manually select the desired proxy server. In the event of a failure, it will not automatically switch servers, so you must intervene to choose an available alternative.
 
-[Manual node selection config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Selection_Configuration_By_iKeLee.lcf) - This configuration file requires you to manually select the desired proxy server. It does not automatically switch servers if a failure occurs, so your intervention is needed to choose an available alternative.
+[Loon Advanced Config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Advanced_Config_By_iKeLee.lcf) - This configuration file automatically selects the proxy node with the lowest network latency, requiring no manual intervention—all processes are fully automated. When connected to a router equipped with a transparent proxy, Loon will use the "Direct" strategy to establish connections and route traffic for websites requiring proxying directly through your router; in other network environments, Loon will use its own proxy mode to access these websites, thereby avoiding double proxying when already using a transparent proxy router.
 
-[Simple config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Simple_Configuration_By_iKeLee.lcf) - This configuration file is designed for simplicity, featuring a single policy group. Its straightforward nature allows for effortless setup and immediate usability.
+[Loon Debug Config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Debug_Config_By_iKeLee.lcf) - This configuration file can be used to verify Loon's program errors and also serves as a foundation for creating your own custom configuration.
 
-[Basic config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_Basic_Configuration_By_iKeLee.lcf) - This configuration file can serve as a foundation for creating your own custom configurations. It doesn't include any policy groups and is primarily intended for troubleshooting errors in your own configurations and as a starting point for building your personalized setup.
-
-[tvOS config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_tvOS_Configuration_By_iKeLee.lcf) - This configuration file is specifically designed for tvOS. Some policy groups will automatically select the proxy server with the lowest network latency, while others require you to manually choose a server.
+[tvOS config](https://www.nsloon.com/openloon/import?sub=https://kelee.one/Tool/Loon/Lcf/en-US/Loon_tvOS_Config_By_iKeLee.lcf) - This Config file is specifically designed for tvOS. Some policy groups will automatically select the proxy server with the lowest network latency, while others require you to manually choose a server.
 
 ### Usage Instructions
 
-1. After importing the configuration, please [switch to automatic flow mode](https://www.nsloon.com/openloon/flowmodel=filter).
+1. After importing the Config, please switch to [Rule Base](https://www.nsloon.com/openloon/flowmodel=filter) mode.
 
-2. Go to the [Configuration] interface and turn on the switches for [Script], [Rewrite], and [MitM].
+2. Go to the [Config] interface and turn on the switches for [Script], [Rewrite], and [MitM].
 
 3. Install and trust the certificate.
 

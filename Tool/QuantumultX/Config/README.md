@@ -10,9 +10,9 @@
 
 ### 配置地址
 
-[进阶配置](https://kelee.one/Tool/QuantumultX/Config/Quantumult_X_Sample_Configuration_By_iKeLee.conf)
+[进阶配置（全类型策略组版）](https://kelee.one/Tool/QuantumultX/Config/Quantumult_X_Advanced_Config(Full_Type_Policy_Group)_By_iKeLee.conf)
 
-[最小配置](https://kelee.one/Tool/QuantumultX/Config/Quantumult_X_Simple_Sample_Configuration_By_iKeLee.conf)
+[自动配置](https://kelee.one/Tool/QuantumultX/Config/Quantumult_X_Auto_Select_Config_By_iKeLee.conf)
 
 ### 使用说明
 
